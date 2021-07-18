@@ -2,14 +2,14 @@ package ct;
 
 import javax.swing.JOptionPane;
 
-public class ciklièkaTablica {
+public class ciklickaTablica {
 
 	public static void main(String[] args) {
 
 		int n1 = Integer.parseInt(JOptionPane.showInputDialog
-				("Koliko redaka želite u tablici?"));
+				("Koliko redaka zelite u tablici?"));
 		int n2 = Integer.parseInt(JOptionPane.showInputDialog
-				("Koliko stupaca želite u tablici?"));
+				("Koliko stupaca zelite u tablici?"));
 		
 		int [][] ct = new int [n1][n2];
 		
@@ -39,7 +39,7 @@ public class ciklièkaTablica {
 			r1++;
 		}
 		
-		System.out.println("Ciklièka tablica: \n");
+		System.out.println("Ciklicka tablica: \n");
 		
 		for(int i = 0; i < n1; i++) {
 			for(int j = 0; j < n2; j++) {
